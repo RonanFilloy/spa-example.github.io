@@ -1,0 +1,41 @@
+.background-nav {
+    background: rgba(0, 0, 60, 0.8);
+    height: 8vh;
+}
+
+.mountain-buttons {
+    height: 100%;
+    margin-left: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mountain-buttons h4 {
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    transition: 0.3s ease;
+    cursor: pointer;
+    color: rgba(160, 160, 160, 0.6);
+    height: 100%;
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+.mountain-buttons .active {
+    background: rgba(160, 160, 160, 0.6);
+    text-decoration: underline;
+    color: rgba(0, 0, 60, 0.8);
+}
+
+@media (max-width: 700px) {
+    .background-nav {
+        height: 6vh;
+    }
+    
+    .mountain-buttons h4 {
+        font-size: 1.4em;
+    }
+}

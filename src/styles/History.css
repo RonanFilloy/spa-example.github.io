@@ -1,0 +1,68 @@
+.history {
+    background-image: url('../assets/History.png');
+    background-position: center;
+    background-size: cover;
+    background-position-y: 20%;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title {
+    height: 30%;
+    position: relative;
+}
+
+.title h1 {
+    text-align: start;
+    left: 15%;
+    top: 3%;
+    font-size: 8em;
+    position: absolute;
+}
+
+.title span {
+    text-align: start;
+    top: 25%;
+    left: 80%;
+    font-size: 0.5em;
+    position: absolute;
+}
+
+.history p {
+    margin: auto;
+    margin-top: -7%;
+    text-align: start;
+    width: 60%;
+    margin-left: 22%;
+}
+
+@media (max-width: 700px) {
+    .history {
+        height: 80vh;
+    }
+    .title h1 {
+        font-size: 4em;
+    }
+    .history p {
+        width: 70%;
+    }
+}
+
+@media (max-width: 580px) {
+    .history {
+        height: 60vh;
+    }
+    .title h1 {
+        font-size: 4em;
+    }
+    .history p {
+        width: 70%;
+        font-size: 10px;
+        margin-top: -5%;
+    }
+}
+
+

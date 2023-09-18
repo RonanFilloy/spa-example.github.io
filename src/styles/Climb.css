@@ -1,0 +1,96 @@
+.description {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 2vh;
+}
+
+.description h1 {
+    font-size: 8em;
+    position: absolute;
+    left: 15%;
+}
+
+.description h1 span {
+    font-size: 0.5em;
+    position: absolute;
+    top: 20%;
+    left: 82%;
+    
+}
+
+.description h6 {
+    width: 40%;
+    position: absolute;
+    left: 53%;
+    top: 40%;
+    text-align: start;
+}
+
+.mountain-background {
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.schedule {
+    width: 35%;
+    height: 40%;
+    position: relative;
+    top: 20%;
+    left: 15%;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.calendar {
+    list-style: none;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+}
+
+.calendar li {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nov p {
+    margin: 0;
+}
+
+@media (max-width: 840px) {
+    .description h1 {
+        font-size: 6em;
+    }
+    
+    .description h6 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 700px) {
+    .description {
+        display: block;
+        height: 20vh;
+    }
+
+    .description h1 {
+        font-size: 4em;
+    }
+    
+    .description h6 {
+        font-size: 10px;
+    }
+
+    .mountain-background {
+        height: 60vh;
+    }
+
+    .schedule {
+        width: 70%;
+    }
+
+}
