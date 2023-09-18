@@ -1,4 +1,3 @@
-import "./App.css";
 import Home from "./components/Home";
 import History from "./components/History";
 import Climb from "./components/Climb";
