@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/spa-example.github.io/static/css/main.173d5350.css",
-    "main.js": "/spa-example.github.io/static/js/main.0a77d355.js",
-    "static/js/787.a204d449.chunk.js": "/spa-example.github.io/static/js/787.a204d449.chunk.js",
+    "main.js": "/spa-example.github.io/static/js/main.49f6911f.js",
     "static/media/carouselPhoto1.png": "/spa-example.github.io/static/media/carouselPhoto1.7c166cded323f7ba670d.png",
     "static/media/BG2.png": "/spa-example.github.io/static/media/BG2.b325eab28506517c9796.png",
     "static/media/CarouselPhoto2.png": "/spa-example.github.io/static/media/CarouselPhoto2.dd0afb740b40c14a6887.png",
@@ -12,11 +11,10 @@
     "static/media/logo.png": "/spa-example.github.io/static/media/logo.ffdfbbcb3f814d10a9c7.png",
     "index.html": "/spa-example.github.io/index.html",
     "main.173d5350.css.map": "/spa-example.github.io/static/css/main.173d5350.css.map",
-    "main.0a77d355.js.map": "/spa-example.github.io/static/js/main.0a77d355.js.map",
-    "787.a204d449.chunk.js.map": "/spa-example.github.io/static/js/787.a204d449.chunk.js.map"
+    "main.49f6911f.js.map": "/spa-example.github.io/static/js/main.49f6911f.js.map"
   },
   "entrypoints": [
     "static/css/main.173d5350.css",
-    "static/js/main.0a77d355.js"
+    "static/js/main.49f6911f.js"
   ]
 }
